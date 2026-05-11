@@ -1,0 +1,2180 @@
+{
+  "intents": [
+
+    {
+      "tag": "greeting",
+      "patterns": ["hi", "hello", "hey", "hlo", "good morning", "good evening"],
+      "responses": [
+        "Hello! How can I help you?",
+        "Hi there! How can I assist you today?",
+        "Hey! Ask me anything about TMU."
+      ]
+    },
+
+    {
+      "tag": "tmu_info",
+      "patterns": [
+        "tell me about tmu",
+        "what is tmu",
+        "full form of tmu",
+        "where is tmu located",
+        "tmu location",
+        "is tmu ugc approved",
+        "is tmu naac accredited",
+        "is tmu private or government",
+        "when was tmu established"
+      ],
+      "responses": [
+        "Teerthanker Mahaveer University (TMU) is a private university in Moradabad, Uttar Pradesh, established in 2008. It offers programs in engineering, management, medical sciences, law, pharmacy, and more."
+      ]
+    },
+
+    {
+      "tag": "tmu_contact",
+      "patterns": [
+        "official website of tmu",
+        "tmu official website",
+        "how to contact tmu",
+        "contact number of tmu",
+        "email of tmu"
+      ],
+      "responses": [
+        "You can visit TMU official website: https://www.tmu.ac.in or contact via https://www.tmu.ac.in/contact-us"
+      ]
+    },
+
+    {
+      "tag": "courses",
+      "patterns": [
+        "what courses are offered in tmu",
+        "courses in tmu",
+        "programs offered by tmu"
+      ],
+      "responses": [
+        "TMU offers courses in Engineering, Computer Applications, Management, Commerce, Law, Medical Sciences, Pharmacy, Nursing, Agriculture, and more."
+      ]
+    },
+
+    {
+      "tag": "bca",
+      "patterns": [
+        "what is bca",
+        "bca course in tmu",
+        "tell me about bca in tmu",
+        "bca eligibility",
+        "bca fees in tmu",
+        "bca syllabus in tmu",
+        "career after bca"
+      ],
+      "responses": [
+        "BCA is a 3-year undergraduate program covering programming, DBMS, web development, and AI basics. Fee is approx ₹30,500 per semester. Careers include developer, analyst, or MCA."
+      ]
+    },
+
+    {
+      "tag": "mca",
+      "patterns": [
+        "what is mca",
+        "mca course in tmu",
+        "mca eligibility",
+        "mca fees in tmu"
+      ],
+      "responses": [
+        "MCA is a postgraduate program focused on advanced software development, databases, and networking."
+      ]
+    },
+
+    {
+      "tag": "btech",
+      "patterns": [
+        "btech course in tmu",
+        "btech in tmu",
+        "engineering courses in tmu",
+        "btech eligibility",
+        "btech fees in tmu",
+        "btech branches in tmu"
+      ],
+      "responses": [
+        "TMU offers B.Tech in CSE, Mechanical, Civil, Electrical, AI & ML, and Data Science. Eligibility requires 10+2 with PCM."
+      ]
+    },
+
+    {
+      "tag": "mtech",
+      "patterns": [
+        "mtech course in tmu",
+        "mtech eligibility",
+        "mtech fees in tmu"
+      ],
+      "responses": [
+        "M.Tech is a postgraduate engineering program requiring a B.Tech degree."
+      ]
+    },
+
+    {
+      "tag": "bba",
+      "patterns": [
+        "what is bba",
+        "bba course in tmu",
+        "bba eligibility",
+        "bba fees in tmu",
+        "career after bba"
+      ],
+      "responses": [
+        "BBA is a 3-year business management course covering marketing, HR, and finance."
+      ]
+    },
+
+    {
+      "tag": "mba",
+      "patterns": [
+        "what is mba",
+        "mba course in tmu",
+        "mba eligibility",
+        "mba fees in tmu",
+        "career after mba"
+      ],
+      "responses": [
+        "MBA is a postgraduate management program leading to careers in business, finance, and leadership roles."
+      ]
+    },
+
+    {
+      "tag": "law",
+      "patterns": [
+        "law course in tmu",
+        "ba llb in tmu",
+        "bba llb in tmu",
+        "llb in tmu",
+        "law eligibility in tmu"
+      ],
+      "responses": [
+        "TMU offers BA LLB, BBA LLB, and LLB programs for legal education."
+      ]
+    },
+
+    {
+      "tag": "pharmacy",
+      "patterns": [
+        "pharmacy course in tmu",
+        "bpharm in tmu",
+        "dpharm in tmu",
+        "pharmacy eligibility"
+      ],
+      "responses": [
+        "TMU offers D.Pharm, B.Pharm, and M.Pharm programs for pharmaceutical studies."
+      ]
+    },
+
+    {
+      "tag": "nursing",
+      "patterns": [
+        "nursing course in tmu",
+        "bsc nursing in tmu",
+        "gnm in tmu",
+        "anm in tmu",
+        "nursing eligibility"
+      ],
+      "responses": [
+        "TMU offers B.Sc Nursing, GNM, and ANM programs for healthcare education."
+      ]
+    },
+
+    {
+      "tag": "admission",
+      "patterns": [
+        "admission process in tmu",
+        "how to get admission in tmu",
+        "how to apply in tmu",
+        "documents required for admission in tmu"
+      ],
+      "responses": [
+        "Admission process: choose course → fill application → submit documents → pay fees. Visit https://www.tmu.ac.in/admissions"
+      ]
+    },
+
+    {
+      "tag": "facilities",
+      "patterns": [
+        "does tmu have hostel facilities",
+        "hostel in tmu",
+        "campus facilities in tmu",
+        "does tmu have library",
+        "does tmu have wifi",
+        "does tmu have transport"
+      ],
+      "responses": [
+        "TMU provides hostels, library, labs, WiFi, sports, cafeteria, transport, and medical facilities."
+      ]
+    },
+
+    {
+      "tag": "placements",
+      "patterns": [
+        "does tmu have placement opportunities",
+        "placements in tmu",
+        "companies visiting tmu",
+        "highest package in tmu"
+      ],
+      "responses": [
+        "TMU has a placement cell with companies like TCS, Infosys, Wipro, and HCL."
+      ]
+    },
+
+    {
+      "tag": "student_life",
+      "patterns": [
+        "campus life in tmu",
+        "events in tmu",
+        "is tmu good for students"
+      ],
+      "responses": [
+        "TMU offers a vibrant campus life with academics, events, sports, and student activities."
+      ]
+    },
+
+    {
+      "tag": "bot",
+      "patterns": [
+        "who created you",
+        "what can you do",
+        "thanks",
+        "thank you",
+        "bye"
+      ],
+      "responses": [
+        "I am a TMU chatbot created as a college project. I can help with courses, fees, admissions, and more."
+      ]
+    },
+
+    {
+  "tag": "mba",
+  "patterns": [
+    "what is mba",
+    "mba course in tmu",
+    "mba eligibility",
+    "mba fees in tmu",
+    "career after mba"
+  ],
+  "responses": [
+    "MBA is a postgraduate management program focused on business, finance, marketing, and leadership careers."
+  ]
+},
+{
+  "tag": "commerce",
+  "patterns": [
+    "bcom course in tmu",
+    "bcom eligibility",
+    "bcom fees in tmu",
+    "mcom course in tmu",
+    "mcom eligibility"
+  ],
+  "responses": [
+    "TMU offers B.Com and M.Com programs focused on accounting, finance, taxation, and business studies."
+  ]
+},
+{
+  "tag": "law",
+  "patterns": [
+    "law course in tmu",
+    "ba llb in tmu",
+    "bba llb in tmu",
+    "llb in tmu",
+    "law eligibility in tmu"
+  ],
+  "responses": [
+    "TMU offers BA LLB, BBA LLB, and LLB programs for students interested in legal education."
+  ]
+},
+{
+  "tag": "pharmacy",
+  "patterns": [
+    "pharmacy course in tmu",
+    "bpharm in tmu",
+    "dpharm in tmu",
+    "pharmacy eligibility"
+  ],
+  "responses": [
+    "TMU offers D.Pharm, B.Pharm, and M.Pharm programs for pharmaceutical sciences."
+  ]
+},
+{
+  "tag": "nursing",
+  "patterns": [
+    "nursing course in tmu",
+    "bsc nursing in tmu",
+    "gnm in tmu",
+    "anm in tmu",
+    "nursing eligibility"
+  ],
+  "responses": [
+    "TMU offers B.Sc Nursing, GNM, and ANM programs for healthcare and nursing education."
+  ]
+},
+{
+  "tag": "medical",
+  "patterns": [
+    "medical courses in tmu",
+    "paramedical courses in tmu",
+    "dental courses in tmu"
+  ],
+  "responses": [
+    "TMU offers medical, dental, paramedical, and allied health science programs."
+  ]
+},
+{
+  "tag": "agriculture",
+  "patterns": [
+    "agriculture courses in tmu",
+    "bsc agriculture in tmu"
+  ],
+  "responses": [
+    "TMU offers agriculture programs including B.Sc Agriculture for crop and soil sciences."
+  ]
+},
+{
+  "tag": "admission",
+  "patterns": [
+    "admission process in tmu",
+    "how to get admission in tmu",
+    "how to apply in tmu",
+    "documents required for admission in tmu"
+  ],
+  "responses": [
+    "Admission process: choose course → fill application → submit documents → pay fees. Visit https://www.tmu.ac.in/admissions"
+  ]
+},
+{
+  "tag": "fees_scholarship",
+  "patterns": [
+    "fee structure of tmu",
+    "scholarship in tmu",
+    "does tmu provide scholarship"
+  ],
+  "responses": [
+    "TMU fee structure varies by course. Scholarships may be available based on merit and eligibility."
+  ]
+},
+{
+  "tag": "facilities",
+  "patterns": [
+    "does tmu have hostel facilities",
+    "hostel in tmu",
+    "hostel fees in tmu",
+    "campus facilities in tmu",
+    "does tmu have library",
+    "does tmu have wifi",
+    "does tmu have transport"
+  ],
+  "responses": [
+    "TMU provides hostels, library, labs, Wi-Fi, sports, cafeteria, transport, and medical facilities."
+  ]
+},
+{
+  "tag": "placements",
+  "patterns": [
+    "does tmu have placement opportunities",
+    "placements in tmu",
+    "companies visiting tmu",
+    "highest package in tmu"
+  ],
+  "responses": [
+    "TMU has a placement cell with companies like TCS, Infosys, Wipro, and HCL."
+  ]
+},
+{
+  "tag": "student_life",
+  "patterns": [
+    "campus life in tmu",
+    "events in tmu",
+    "is tmu good for students"
+  ],
+  "responses": [
+    "TMU offers a vibrant campus life with academics, events, sports, and student activities."
+  ]
+},
+{
+  "tag": "bot",
+  "patterns": [
+    "who created you",
+    "what can you do",
+    "thanks",
+    "thank you",
+    "bye"
+  ],
+  "responses": [
+    "I am a TMU chatbot created as a college project. I can help with courses, fees, admissions, and more."
+  ]
+} 
+,
+{
+  "tag": "ccsit",
+  "patterns": [
+    "what is ccsit",
+    "tell me about ccsit",
+    "ccsit full form",
+    "courses in ccsit",
+    "college of computing sciences and information technology"
+  ],
+  "responses": [
+    "CCSIT stands for College of Computing Sciences and Information Technology at TMU. It offers courses like BCA, MCA, BSc Computer Science, BTech CSE, AI & ML, Data Science, and Cloud Computing."
+  ]
+},
+
+{
+  "tag": "bca_hons",
+  "patterns": [
+    "what is bca hons",
+    "bca hons in tmu",
+    "bca honors course",
+    "bca hons fees",
+    "bca hons eligibility"
+  ],
+  "responses": [
+    "BCA Hons is a 4-year advanced computer applications program at TMU focused on research and specialization. Approx tuition fee is ₹35,000 per semester."
+  ]
+},
+
+{
+  "tag": "bsc_cs",
+  "patterns": [
+    "bsc computer science in tmu",
+    "bsc cs in tmu",
+    "bsc computer science fees",
+    "bsc computer science eligibility"
+  ],
+  "responses": [
+    "BSc Computer Science at TMU is a 3-year course focused on programming, systems, and computational foundations. Approx tuition fee is ₹29,700 per semester."
+  ]
+},
+
+{
+  "tag": "btech_ai_ml",
+  "patterns": [
+    "btech ai ml in tmu",
+    "ai and ml course in tmu",
+    "artificial intelligence course in tmu",
+    "btech ai ml fees",
+    "ai ml eligibility"
+  ],
+  "responses": [
+    "TMU offers BTech AI & ML focused on Artificial Intelligence, Machine Learning, and Deep Learning. Approx tuition fee is ₹67,500 per semester."
+  ]
+},
+
+{
+  "tag": "engineering_specializations",
+  "patterns": [
+    "engineering specializations in tmu",
+    "btech branches in tmu",
+    "specializations in btech",
+    "engineering courses available"
+  ],
+  "responses": [
+    "TMU offers BTech specializations in AI & ML, Data Science, Cloud Computing, Cyber Security, Mechanical, Civil, and Electrical Engineering."
+  ]
+},
+
+{
+  "tag": "mba_details",
+  "patterns": [
+    "mba fees in tmu",
+    "mba eligibility",
+    "tell me about mba",
+    "career after mba",
+    "management courses in tmu"
+  ],
+  "responses": [
+    "MBA at TMU is a 2-year management program focused on leadership, finance, marketing, and business management. Approx tuition fee is ₹55,000 per semester."
+  ]
+},
+
+{
+  "tag": "bba_details",
+  "patterns": [
+    "bba fees in tmu",
+    "bba eligibility",
+    "tell me about bba",
+    "career after bba"
+  ],
+  "responses": [
+    "BBA at TMU is a 3-year undergraduate management course focused on finance, marketing, HR, and entrepreneurship. Approx tuition fee is ₹32,000 per semester."
+  ]
+},
+
+{
+  "tag": "pharmacy_details",
+  "patterns": [
+    "bpharm fees in tmu",
+    "pharmacy fees",
+    "bpharm eligibility",
+    "tell me about pharmacy"
+  ],
+  "responses": [
+    "TMU offers pharmacy programs like DPharm, BPharm, and MPharm. BPharm tuition fee is approximately ₹85,000 per semester."
+  ]
+},
+
+{
+  "tag": "nursing_details",
+  "patterns": [
+    "bsc nursing fees in tmu",
+    "nursing fees",
+    "nursing eligibility",
+    "tell me about nursing"
+  ],
+  "responses": [
+    "TMU offers BSc Nursing, GNM, and ANM programs focused on healthcare and patient care. BSc Nursing fee is approximately ₹70,000 per semester."
+  ]
+},
+
+{
+  "tag": "hostel_fees",
+  "patterns": [
+    "hostel fees in tmu",
+    "hostel cost in tmu",
+    "hostel fee yearly",
+    "hostel charges"
+  ],
+  "responses": [
+    "TMU hostel fee is approximately ₹60,000 to ₹75,000 yearly depending on the course and hostel type."
+  ]
+},
+
+{
+  "tag": "bus_fee",
+  "patterns": [
+    "bus fee in tmu",
+    "transport fee in tmu",
+    "bus charges",
+    "transport charges"
+  ],
+  "responses": [
+    "TMU provides transport facilities with an average yearly bus fee of approximately ₹17,000."
+  ]
+},
+
+{
+  "tag": "placements_details",
+  "patterns": [
+    "highest package in tmu",
+    "placement support in tmu",
+    "top recruiters in tmu",
+    "companies visiting tmu",
+    "placement cell"
+  ],
+  "responses": [
+    "TMU provides placement support through training and placement services. Top recruiters include TCS, Infosys, Wipro, HCL, Deloitte, Tech Mahindra, and Capgemini. Highest package reported is around 63 LPA."
+  ]
+},
+
+{
+  "tag": "scholarships",
+  "patterns": [
+    "scholarships in tmu",
+    "does tmu provide scholarship",
+    "merit scholarship",
+    "jain scholarship"
+  ],
+  "responses": [
+    "TMU provides scholarships based on academic merit and eligibility. Jain minority scholarships and merit-based scholarships are also available."
+  ]
+},
+
+{
+  "tag": "hostel_facilities",
+  "patterns": [
+    "hostel facilities in tmu",
+    "facilities in hostel",
+    "does hostel have wifi",
+    "hostel services"
+  ],
+  "responses": [
+    "TMU hostel facilities include WiFi, mess, security, laundry services, and study areas with separate hostels for boys and girls."
+  ]
+},
+
+{
+  "tag": "medical_courses",
+  "patterns": [
+    "medical courses in tmu",
+    "mbbs in tmu",
+    "dental courses in tmu",
+    "medical college in tmu"
+  ],
+  "responses": [
+    "TMU offers medical, dental, and allied healthcare programs through its Medical College and Research Centre and Dental College."
+  ]
+},
+
+{
+  "tag": "law_college",
+  "patterns": [
+    "law college in tmu",
+    "law programs in tmu",
+    "ba llb fees",
+    "llb eligibility"
+  ],
+  "responses": [
+    "TMU College of Law and Legal Studies offers BA LLB, BBA LLB, LLB, and LLM programs for legal education."
+  ]
+},
+
+{
+  "tag": "agriculture_courses",
+  "patterns": [
+    "agriculture courses in tmu",
+    "bsc agriculture fees",
+    "agriculture eligibility"
+  ],
+  "responses": [
+    "TMU offers BSc Agriculture programs focused on crop science, soil science, and agricultural technologies."
+  ]
+},
+
+{
+  "tag": "contact_details",
+  "patterns": [
+    "where is tmu located",
+    "tmu location",
+    "official website of tmu",
+    "contact details of tmu"
+  ],
+  "responses": [
+    "TMU is located in Moradabad, Uttar Pradesh, India. Official website: https://www.tmu.ac.in"
+  ]
+}
+,
+{
+  "tag": "bsc_animation",
+  "patterns": [
+    "bsc animation in tmu",
+    "animation course in tmu",
+    "bsc animation fees",
+    "animation eligibility",
+    "tell me about bsc animation"
+  ],
+  "responses": [
+    "TMU offers BSc Animation focused on digital art, VFX, UI/UX, graphics design, game design, and multimedia production. The course includes practical training, animation labs, and industry-oriented projects. Approx fee is ₹29,700 per semester. Eligibility generally requires 10+2 in any stream with around 50% marks."
+  ]
+},
+
+{
+  "tag": "bsc_animation_scope",
+  "patterns": [
+    "scope of bsc animation",
+    "career after animation",
+    "jobs after bsc animation",
+    "future in animation",
+    "should i choose animation"
+  ],
+  "responses": [
+    "BSc Animation offers career opportunities in Animation, VFX, Game Design, UI/UX Design, Motion Graphics, Video Editing, Graphic Design, and Multimedia Production. Students interested in creativity, digital art, storytelling, gaming, and design should consider this course."
+  ]
+},
+
+{
+  "tag": "bsc_animation_specializations",
+  "patterns": [
+    "specializations in bsc animation",
+    "animation specializations",
+    "animation fields in tmu"
+  ],
+  "responses": [
+    "TMU BSc Animation offers specializations and exposure in UI/UX Design, VFX, Graphics Designing, Product Designing, Game Designing, and Digital Animation."
+  ]
+},
+
+{
+  "tag": "bsc_cs_details",
+  "patterns": [
+    "bsc computer science in tmu",
+    "bsc cs details",
+    "bsc cs fees",
+    "bsc cs eligibility",
+    "tell me about bsc cs"
+  ],
+  "responses": [
+    "TMU offers BSc Computer Science through CCSIT. The course focuses on programming, software development, AI, databases, networking, cybersecurity, and computer systems. Approx fee is ₹29,700 per semester. Eligibility generally requires 10+2 with Mathematics or Computer Science background."
+  ]
+},
+
+{
+  "tag": "bsc_cs_scope",
+  "patterns": [
+    "scope of bsc cs",
+    "career after bsc computer science",
+    "jobs after bsc cs",
+    "future after bsc cs"
+  ],
+  "responses": [
+    "After BSc Computer Science, students can pursue careers in Software Development, Data Science, Cybersecurity, Web Development, AI, Cloud Computing, and IT Support. Students can also continue higher studies like MCA or MSc Computer Science."
+  ]
+},
+
+{
+  "tag": "bsc_cs_choose",
+  "patterns": [
+    "who should choose bsc cs",
+    "is bsc cs good",
+    "should i choose bsc computer science"
+  ],
+  "responses": [
+    "Students interested in coding, software development, technology, AI, cybersecurity, and problem-solving should choose BSc Computer Science. It is ideal for students who want a career in the IT industry."
+  ]
+},
+
+{
+  "tag": "bsc_nursing_details",
+  "patterns": [
+    "bsc nursing in tmu",
+    "nursing course details",
+    "bsc nursing fees",
+    "nursing eligibility",
+    "tell me about nursing"
+  ],
+  "responses": [
+    "TMU offers BSc Nursing focused on patient care, healthcare systems, clinical practice, anatomy, physiology, and medical sciences. The course duration is 4 years. Approx fee ranges around ₹70,000 per semester. Eligibility generally requires 10+2 with PCB and English with around 50% marks."
+  ]
+},
+
+{
+  "tag": "bsc_nursing_scope",
+  "patterns": [
+    "scope of nursing",
+    "career after nursing",
+    "jobs after bsc nursing",
+    "future after nursing"
+  ],
+  "responses": [
+    "After BSc Nursing, students can work as Registered Nurses, Clinical Nurses, ICU Nurses, Healthcare Administrators, Nursing Educators, and Medical Support Specialists in hospitals and healthcare institutions."
+  ]
+},
+
+{
+  "tag": "bsc_nursing_choose",
+  "patterns": [
+    "who should choose nursing",
+    "should i choose nursing",
+    "is bsc nursing good"
+  ],
+  "responses": [
+    "Students interested in healthcare, patient care, medical sciences, and helping people should choose BSc Nursing. It is suitable for students who want stable healthcare careers and hospital-based professions."
+  ]
+},
+
+{
+  "tag": "btech_ai_ml_scope",
+  "patterns": [
+    "scope of ai ml",
+    "career after ai ml",
+    "jobs after ai ml",
+    "future in artificial intelligence"
+  ],
+  "responses": [
+    "BTech AI & ML provides opportunities in Artificial Intelligence, Machine Learning, Data Science, Robotics, Deep Learning, Automation, and Software Engineering. Career roles include AI Engineer, ML Engineer, Data Scientist, and Research Analyst."
+  ]
+},
+
+{
+  "tag": "btech_ai_ml_choose",
+  "patterns": [
+    "who should choose ai ml",
+    "should i choose ai ml",
+    "is ai ml good"
+  ],
+  "responses": [
+    "Students interested in Artificial Intelligence, coding, mathematics, automation, and future technologies should choose AI & ML. It is suitable for students interested in advanced technology and innovation."
+  ]
+},
+
+{
+  "tag": "bca_choose",
+  "patterns": [
+    "who should choose bca",
+    "is bca good",
+    "should i choose bca"
+  ],
+  "responses": [
+    "Students interested in software development, web development, programming, and IT careers should choose BCA. It is a strong option for students wanting to enter the software industry quickly."
+  ]
+},
+
+{
+  "tag": "mba_scope",
+  "patterns": [
+    "scope of mba",
+    "career after mba",
+    "jobs after mba",
+    "future after mba"
+  ],
+  "responses": [
+    "MBA graduates can pursue careers in Management, Marketing, Finance, HR, Business Analytics, Operations, Entrepreneurship, and Consulting. MBA helps students build leadership and management skills."
+  ]
+},
+
+{
+  "tag": "mba_choose",
+  "patterns": [
+    "who should choose mba",
+    "is mba good",
+    "should i choose mba"
+  ],
+  "responses": [
+    "Students interested in business, management, leadership, marketing, finance, or entrepreneurship should choose MBA. It is suitable for students aiming for managerial and corporate careers."
+  ]
+},
+
+{
+  "tag": "bba_scope",
+  "patterns": [
+    "scope of bba",
+    "career after bba",
+    "jobs after bba"
+  ],
+  "responses": [
+    "BBA students can pursue careers in Marketing, Finance, HR, Sales, Digital Marketing, Operations, and Entrepreneurship. Students can also pursue MBA for advanced management careers."
+  ]
+},
+
+{
+  "tag": "bpharm_scope",
+  "patterns": [
+    "scope of pharmacy",
+    "career after bpharm",
+    "jobs after pharmacy"
+  ],
+  "responses": [
+    "After BPharm, students can work in pharmaceutical companies, hospitals, drug research, quality control, medical stores, healthcare industries, and pharmaceutical marketing."
+  ]
+},
+
+{
+  "tag": "law_scope",
+  "patterns": [
+    "scope of law",
+    "career after llb",
+    "jobs after law",
+    "future after law"
+  ],
+  "responses": [
+    "Law graduates can become Advocates, Legal Advisors, Corporate Lawyers, Judges, Legal Consultants, and Government Legal Officers."
+  ]
+},
+
+{
+  "tag": "placement_training",
+  "patterns": [
+    "placement training in tmu",
+    "training and placement",
+    "placement preparation"
+  ],
+  "responses": [
+    "TMU provides placement training including aptitude preparation, resume building, mock interviews, communication skills training, internships, and placement drives."
+  ]
+},
+
+{
+  "tag": "campus_life",
+  "patterns": [
+    "campus life in tmu",
+    "student life",
+    "how is tmu campus"
+  ],
+  "responses": [
+    "TMU provides a modern campus environment with hostels, sports facilities, cafeterias, clubs, WiFi, libraries, labs, cultural events, and technical activities for students."
+  ]
+}
+,
+{
+  "tag": "bams_complete_details",
+  "patterns": [
+    "tell me complete details about bams",
+    "full information about bams",
+    "bams complete details",
+    "everything about bams in tmu",
+    "detailed information about bams"
+  ],
+  "responses": [
+    "BAMS (Bachelor of Ayurvedic Medicine and Surgery) at TMU is a professional medical degree focused on Ayurveda and holistic healthcare systems. The course duration is generally 5.5 years including internship. Eligibility usually requires 10+2 with Physics, Chemistry, Biology, and NEET qualification. The course includes subjects like Anatomy, Physiology, Ayurvedic Pharmacology, Surgery, Pathology, Herbal Medicine, Panchakarma, and Clinical Training. Approx tuition fee is around ₹2.5–3 lakh per year excluding hostel charges. Career opportunities after BAMS include Ayurvedic Doctor, Wellness Consultant, Researcher, Clinical Practitioner, Medical Officer, and opening private Ayurvedic clinics. Students interested in natural healing, Ayurveda, traditional medicine, and holistic healthcare should choose BAMS."
+  ]
+},
+
+{
+  "tag": "bams_course_structure",
+  "patterns": [
+    "bams course structure",
+    "subjects in bams",
+    "bams syllabus",
+    "what subjects are taught in bams"
+  ],
+  "responses": [
+    "BAMS course structure includes Anatomy, Physiology, Sanskrit, Ayurvedic Principles, Pathology, Herbal Medicine, Toxicology, Pharmacology, Panchakarma, Surgery, ENT, Obstetrics, Gynecology, and Clinical Training."
+  ]
+},
+
+{
+  "tag": "bams_duration",
+  "patterns": [
+    "duration of bams",
+    "how many years is bams",
+    "bams course duration"
+  ],
+  "responses": [
+    "BAMS generally has a duration of 5.5 years including compulsory internship training."
+  ]
+},
+
+{
+  "tag": "bams_eligibility",
+  "patterns": [
+    "bams eligibility",
+    "requirements for bams",
+    "who can apply for bams",
+    "qualification for bams"
+  ],
+  "responses": [
+    "Eligibility for BAMS generally requires 10+2 with Physics, Chemistry, Biology, and qualifying marks in NEET examination."
+  ]
+},
+
+{
+  "tag": "bams_fees_complete",
+  "patterns": [
+    "bams fees",
+    "complete fee structure of bams",
+    "yearly fee of bams",
+    "hostel fee for bams"
+  ],
+  "responses": [
+    "BAMS tuition fee at TMU is approximately ₹2.5–3 lakh per year excluding hostel and examination charges. Hostel fees may range around ₹60,000–90,000 yearly depending on room type and facilities."
+  ]
+},
+
+{
+  "tag": "bams_scope_complete",
+  "patterns": [
+    "scope of bams",
+    "career after bams",
+    "future after bams",
+    "jobs after bams"
+  ],
+  "responses": [
+    "After BAMS, students can become Ayurvedic Doctors, Wellness Consultants, Researchers, Panchakarma Specialists, Healthcare Practitioners, Medical Officers, or open private Ayurvedic clinics and wellness centers."
+  ]
+},
+
+{
+  "tag": "bams_choose_complete",
+  "patterns": [
+    "who should choose bams",
+    "should i choose bams",
+    "is bams good",
+    "why choose bams"
+  ],
+  "responses": [
+    "Students interested in Ayurveda, natural healing, holistic healthcare, herbal medicine, and traditional Indian medical systems should choose BAMS. It is suitable for students passionate about alternative healthcare approaches."
+  ]
+},
+
+{
+  "tag": "bums_complete_details",
+  "patterns": [
+    "tell me complete details about bums",
+    "full information about bums",
+    "bums complete details",
+    "everything about bums in tmu",
+    "detailed information about bums"
+  ],
+  "responses": [
+    "BUMS (Bachelor of Unani Medicine and Surgery) at TMU is a professional medical degree focused on Unani medicine and traditional healing systems. The course duration is generally 5.5 years including internship. Eligibility usually requires 10+2 with Physics, Chemistry, Biology, and NEET qualification. The course includes subjects like Anatomy, Physiology, Pharmacology, Unani Medicine, Pathology, Surgery, Preventive Medicine, and Clinical Training. Approx tuition fee is around ₹2–2.5 lakh per year excluding hostel charges. Career opportunities after BUMS include Unani Doctor, Healthcare Practitioner, Researcher, Medical Consultant, and opening private Unani clinics."
+  ]
+},
+
+{
+  "tag": "bums_course_structure",
+  "patterns": [
+    "bums course structure",
+    "subjects in bums",
+    "bums syllabus",
+    "what subjects are taught in bums"
+  ],
+  "responses": [
+    "BUMS course structure includes Anatomy, Physiology, Pharmacology, Pathology, Unani Medicine, Surgery, Preventive Medicine, Toxicology, Clinical Medicine, and Internship Training."
+  ]
+},
+
+{
+  "tag": "bums_duration",
+  "patterns": [
+    "duration of bums",
+    "how many years is bums",
+    "bums course duration"
+  ],
+  "responses": [
+    "BUMS generally has a duration of 5.5 years including compulsory internship training."
+  ]
+},
+
+{
+  "tag": "bums_eligibility",
+  "patterns": [
+    "bums eligibility",
+    "requirements for bums",
+    "who can apply for bums",
+    "qualification for bums"
+  ],
+  "responses": [
+    "Eligibility for BUMS generally requires 10+2 with Physics, Chemistry, Biology, and qualifying marks in NEET examination."
+  ]
+},
+
+{
+  "tag": "bums_fees_complete",
+  "patterns": [
+    "bums fees",
+    "complete fee structure of bums",
+    "yearly fee of bums",
+    "hostel fee for bums"
+  ],
+  "responses": [
+    "BUMS tuition fee at TMU is approximately ₹2–2.5 lakh per year excluding hostel and examination charges. Hostel fees may range around ₹60,000–90,000 yearly depending on hostel facilities."
+  ]
+},
+
+{
+  "tag": "bums_scope_complete",
+  "patterns": [
+    "scope of bums",
+    "career after bums",
+    "future after bums",
+    "jobs after bums"
+  ],
+  "responses": [
+    "After BUMS, students can become Unani Doctors, Healthcare Consultants, Medical Practitioners, Researchers, Wellness Specialists, or establish private Unani clinics and healthcare centers."
+  ]
+},
+
+{
+  "tag": "bums_choose_complete",
+  "patterns": [
+    "who should choose bums",
+    "should i choose bums",
+    "is bums good",
+    "why choose bums"
+  ],
+  "responses": [
+    "Students interested in Unani medicine, traditional healing systems, herbal treatments, and holistic healthcare should choose BUMS."
+  ]
+}
+,
+{
+  "tag": "mbbs_complete_details",
+  "patterns": [
+    "tell me complete details about mbbs",
+    "full information about mbbs",
+    "mbbs complete details",
+    "everything about mbbs in tmu",
+    "detailed information about mbbs"
+  ],
+  "responses": [
+    "MBBS (Bachelor of Medicine and Bachelor of Surgery) at TMU is a professional medical degree focused on modern medicine, diagnosis, surgery, patient care, and clinical practice. The course duration is generally 5.5 years including internship. Eligibility usually requires 10+2 with Physics, Chemistry, Biology, and NEET qualification. The course includes Anatomy, Physiology, Biochemistry, Pharmacology, Pathology, Surgery, Medicine, Pediatrics, Orthopedics, ENT, and Clinical Training. Approx tuition fee is around ₹16–18 lakh per year excluding hostel and miscellaneous charges. Career opportunities after MBBS include Doctor, Surgeon, Physician, Medical Officer, Clinical Practitioner, Researcher, and specialization through MD/MS programs. Students passionate about healthcare, medicine, surgery, and patient treatment should choose MBBS."
+  ]
+},
+
+{
+  "tag": "mbbs_course_structure",
+  "patterns": [
+    "mbbs course structure",
+    "subjects in mbbs",
+    "mbbs syllabus",
+    "what subjects are taught in mbbs"
+  ],
+  "responses": [
+    "MBBS course structure includes Anatomy, Physiology, Biochemistry, Pharmacology, Pathology, Microbiology, Forensic Medicine, ENT, Ophthalmology, Surgery, Medicine, Pediatrics, Orthopedics, Obstetrics, Gynecology, and Clinical Internship."
+  ]
+},
+
+{
+  "tag": "mbbs_duration",
+  "patterns": [
+    "duration of mbbs",
+    "how many years is mbbs",
+    "mbbs course duration"
+  ],
+  "responses": [
+    "MBBS generally has a duration of 5.5 years including compulsory rotating internship."
+  ]
+},
+
+{
+  "tag": "mbbs_eligibility",
+  "patterns": [
+    "mbbs eligibility",
+    "requirements for mbbs",
+    "who can apply for mbbs",
+    "qualification for mbbs"
+  ],
+  "responses": [
+    "Eligibility for MBBS generally requires 10+2 with Physics, Chemistry, Biology, English, and qualifying marks in NEET examination."
+  ]
+},
+
+{
+  "tag": "mbbs_fees_complete",
+  "patterns": [
+    "mbbs fees",
+    "complete fee structure of mbbs",
+    "yearly fee of mbbs",
+    "hostel fee for mbbs"
+  ],
+  "responses": [
+    "MBBS tuition fee at TMU is approximately ₹16–18 lakh per year excluding hostel, examination, and miscellaneous charges. Hostel fees may range around ₹1–1.5 lakh yearly depending on facilities and room type."
+  ]
+},
+
+{
+  "tag": "mbbs_scope_complete",
+  "patterns": [
+    "scope of mbbs",
+    "career after mbbs",
+    "future after mbbs",
+    "jobs after mbbs"
+  ],
+  "responses": [
+    "After MBBS, students can become Doctors, Surgeons, Physicians, Medical Officers, Clinical Practitioners, Researchers, or pursue higher specializations like MD or MS in different medical fields."
+  ]
+},
+
+{
+  "tag": "mbbs_choose_complete",
+  "patterns": [
+    "who should choose mbbs",
+    "should i choose mbbs",
+    "is mbbs good",
+    "why choose mbbs"
+  ],
+  "responses": [
+    "Students passionate about healthcare, biology, medicine, surgery, patient care, and helping people should choose MBBS. It is ideal for students committed to becoming professional doctors."
+  ]
+},
+
+{
+  "tag": "bpt_complete_details",
+  "patterns": [
+    "tell me complete details about bpt",
+    "full information about physiotherapy",
+    "bpt complete details",
+    "everything about bpt in tmu",
+    "detailed information about bpt"
+  ],
+  "responses": [
+    "BPT (Bachelor of Physiotherapy) at TMU is a professional healthcare course focused on physical rehabilitation, exercise therapy, patient recovery, anatomy, and movement sciences. The course duration is generally 4.5 years including internship. Eligibility usually requires 10+2 with Physics, Chemistry, Biology. The course includes Anatomy, Physiology, Exercise Therapy, Orthopedics, Neurology, Rehabilitation, Biomechanics, Electrotherapy, and Clinical Training. Approx tuition fee ranges around ₹60,000–80,000 per semester excluding hostel charges. Career opportunities include Physiotherapist, Sports Therapist, Rehabilitation Specialist, Clinical Therapist, and Healthcare Consultant."
+  ]
+},
+
+{
+  "tag": "bpt_course_structure",
+  "patterns": [
+    "bpt course structure",
+    "subjects in physiotherapy",
+    "bpt syllabus",
+    "what subjects are taught in bpt"
+  ],
+  "responses": [
+    "BPT course structure includes Anatomy, Physiology, Biochemistry, Exercise Therapy, Electrotherapy, Orthopedics, Neurology, Rehabilitation Sciences, Biomechanics, and Clinical Internship."
+  ]
+},
+
+{
+  "tag": "bpt_duration",
+  "patterns": [
+    "duration of bpt",
+    "how many years is physiotherapy",
+    "bpt course duration"
+  ],
+  "responses": [
+    "BPT generally has a duration of 4.5 years including internship training."
+  ]
+},
+
+{
+  "tag": "bpt_eligibility",
+  "patterns": [
+    "bpt eligibility",
+    "requirements for physiotherapy",
+    "who can apply for bpt",
+    "qualification for bpt"
+  ],
+  "responses": [
+    "Eligibility for BPT generally requires 10+2 with Physics, Chemistry, Biology from a recognized board."
+  ]
+},
+
+{
+  "tag": "bpt_fees_complete",
+  "patterns": [
+    "bpt fees",
+    "complete fee structure of bpt",
+    "yearly fee of physiotherapy",
+    "hostel fee for bpt"
+  ],
+  "responses": [
+    "BPT tuition fee at TMU ranges around ₹60,000–80,000 per semester excluding hostel and examination charges. Hostel charges may range around ₹60,000–90,000 yearly."
+  ]
+},
+
+{
+  "tag": "bpt_scope_complete",
+  "patterns": [
+    "scope of physiotherapy",
+    "career after bpt",
+    "future after physiotherapy",
+    "jobs after bpt"
+  ],
+  "responses": [
+    "After BPT, students can become Physiotherapists, Sports Therapists, Rehabilitation Specialists, Clinical Therapists, Fitness Consultants, and Healthcare Professionals in hospitals, clinics, rehabilitation centers, and sports industries."
+  ]
+},
+
+{
+  "tag": "bpt_choose_complete",
+  "patterns": [
+    "who should choose bpt",
+    "should i choose physiotherapy",
+    "is bpt good",
+    "why choose bpt"
+  ],
+  "responses": [
+    "Students interested in rehabilitation, physical therapy, healthcare, fitness, sports medicine, and patient recovery should choose BPT."
+  ]
+},
+
+{
+  "tag": "bsc_nursing_complete_details",
+  "patterns": [
+    "tell me complete details about bsc nursing",
+    "full information about nursing",
+    "bsc nursing complete details",
+    "everything about nursing in tmu",
+    "detailed information about bsc nursing"
+  ],
+  "responses": [
+    "BSc Nursing at TMU is a professional healthcare course focused on patient care, clinical practice, nursing sciences, anatomy, physiology, and healthcare management. The course duration is generally 4 years. Eligibility usually requires 10+2 with Physics, Chemistry, Biology, and English. The course includes Anatomy, Physiology, Nutrition, Community Health Nursing, Pediatric Nursing, Medical Surgical Nursing, Mental Health Nursing, and Clinical Training. Approx tuition fee is around ₹70,000 per semester excluding hostel charges. Career opportunities include Registered Nurse, ICU Nurse, Clinical Nurse, Healthcare Administrator, Nursing Educator, and Medical Support Specialist."
+  ]
+},
+
+{
+  "tag": "bsc_nursing_course_structure",
+  "patterns": [
+    "bsc nursing course structure",
+    "subjects in nursing",
+    "bsc nursing syllabus",
+    "what subjects are taught in nursing"
+  ],
+  "responses": [
+    "BSc Nursing course structure includes Anatomy, Physiology, Nutrition, Psychology, Medical Surgical Nursing, Community Health Nursing, Pediatric Nursing, Mental Health Nursing, Midwifery, and Clinical Internship."
+  ]
+},
+
+{
+  "tag": "bsc_nursing_duration",
+  "patterns": [
+    "duration of bsc nursing",
+    "how many years is nursing",
+    "bsc nursing duration"
+  ],
+  "responses": [
+    "BSc Nursing generally has a duration of 4 years."
+  ]
+},
+
+{
+  "tag": "bsc_nursing_eligibility",
+  "patterns": [
+    "bsc nursing eligibility",
+    "requirements for nursing",
+    "who can apply for nursing",
+    "qualification for bsc nursing"
+  ],
+  "responses": [
+    "Eligibility for BSc Nursing generally requires 10+2 with Physics, Chemistry, Biology, and English from a recognized board."
+  ]
+},
+
+{
+  "tag": "bsc_nursing_fees_complete",
+  "patterns": [
+    "bsc nursing fees",
+    "complete fee structure of nursing",
+    "yearly fee of nursing",
+    "hostel fee for nursing"
+  ],
+  "responses": [
+    "BSc Nursing tuition fee at TMU is approximately ₹70,000 per semester excluding hostel and examination charges. Hostel fees may range around ₹60,000–90,000 yearly."
+  ]
+},
+
+{
+  "tag": "bsc_nursing_scope_complete",
+  "patterns": [
+    "scope of nursing",
+    "career after bsc nursing",
+    "future after nursing",
+    "jobs after nursing"
+  ],
+  "responses": [
+    "After BSc Nursing, students can become Registered Nurses, ICU Nurses, Clinical Nurses, Nursing Educators, Healthcare Administrators, and Medical Support Professionals in hospitals and healthcare institutions."
+  ]
+},
+
+{
+  "tag": "bsc_nursing_choose_complete",
+  "patterns": [
+    "who should choose nursing",
+    "should i choose bsc nursing",
+    "is nursing good",
+    "why choose nursing"
+  ],
+  "responses": [
+    "Students interested in healthcare, patient care, medical support, nursing sciences, and helping people should choose BSc Nursing."
+  ]
+}
+,
+{
+  "tag": "pharmacy_courses_overview",
+  "patterns": [
+    "pharmacy courses in tmu",
+    "pharmacy programs",
+    "pharmacy field in tmu",
+    "tell me about pharmacy courses"
+  ],
+  "responses": [
+    "TMU offers pharmacy programs including DPharm, BPharm, and MPharm through its College of Pharmacy. These courses focus on medicines, drug research, healthcare systems, pharmacology, pharmaceutical sciences, and clinical pharmacy."
+  ]
+},
+
+{
+  "tag": "bpharm_complete_details",
+  "patterns": [
+    "tell me complete details about bpharm",
+    "full information about bpharm",
+    "bpharm complete details",
+    "everything about bpharm in tmu",
+    "detailed information about bpharm"
+  ],
+  "responses": [
+    "BPharm (Bachelor of Pharmacy) at TMU is a professional pharmacy course focused on medicines, drug formulation, pharmacology, pharmaceutical chemistry, healthcare systems, and clinical pharmacy. The course duration is generally 4 years. Eligibility usually requires 10+2 with Physics, Chemistry, and Biology/Mathematics. The course includes Pharmacology, Pharmaceutics, Pharmaceutical Chemistry, Human Anatomy, Drug Analysis, Biochemistry, Clinical Pharmacy, and Industrial Pharmacy. Approx tuition fee is around ₹85,000 per semester excluding hostel charges. Career opportunities include Pharmacist, Drug Inspector, Clinical Research Associate, Medical Representative, Pharmaceutical Scientist, and Quality Control Analyst."
+  ]
+},
+
+{
+  "tag": "bpharm_course_structure",
+  "patterns": [
+    "bpharm course structure",
+    "subjects in bpharm",
+    "bpharm syllabus",
+    "what subjects are taught in pharmacy"
+  ],
+  "responses": [
+    "BPharm course structure includes Human Anatomy, Physiology, Pharmaceutical Chemistry, Pharmacology, Pharmaceutics, Biochemistry, Drug Analysis, Clinical Pharmacy, Pharmacognosy, and Industrial Pharmacy."
+  ]
+},
+
+{
+  "tag": "bpharm_duration",
+  "patterns": [
+    "duration of bpharm",
+    "how many years is bpharm",
+    "bpharm duration"
+  ],
+  "responses": [
+    "BPharm generally has a duration of 4 years."
+  ]
+},
+
+{
+  "tag": "bpharm_eligibility",
+  "patterns": [
+    "bpharm eligibility",
+    "requirements for bpharm",
+    "who can apply for bpharm",
+    "qualification for pharmacy"
+  ],
+  "responses": [
+    "Eligibility for BPharm generally requires 10+2 with Physics, Chemistry, and Biology or Mathematics from a recognized board."
+  ]
+},
+
+{
+  "tag": "bpharm_fees_complete",
+  "patterns": [
+    "bpharm fees",
+    "complete fee structure of bpharm",
+    "yearly fee of bpharm",
+    "hostel fee for pharmacy"
+  ],
+  "responses": [
+    "BPharm tuition fee at TMU is approximately ₹85,000 per semester excluding hostel and examination charges. Hostel fees may range around ₹60,000–90,000 yearly."
+  ]
+},
+
+{
+  "tag": "bpharm_scope_complete",
+  "patterns": [
+    "scope of bpharm",
+    "career after bpharm",
+    "future after pharmacy",
+    "jobs after bpharm"
+  ],
+  "responses": [
+    "After BPharm, students can work as Pharmacists, Drug Inspectors, Clinical Researchers, Medical Representatives, Pharmaceutical Scientists, Quality Analysts, and Healthcare Consultants in hospitals and pharmaceutical industries."
+  ]
+},
+
+{
+  "tag": "bpharm_choose_complete",
+  "patterns": [
+    "who should choose bpharm",
+    "should i choose pharmacy",
+    "is bpharm good",
+    "why choose bpharm"
+  ],
+  "responses": [
+    "Students interested in medicines, healthcare, pharmaceutical sciences, chemistry, biology, and drug research should choose BPharm."
+  ]
+},
+
+{
+  "tag": "dpharm_complete_details",
+  "patterns": [
+    "tell me complete details about dpharm",
+    "full information about dpharm",
+    "dpharm complete details",
+    "everything about dpharm in tmu",
+    "detailed information about dpharm"
+  ],
+  "responses": [
+    "DPharm (Diploma in Pharmacy) at TMU is a diploma-level pharmacy program focused on basic pharmaceutical sciences, medicines, healthcare systems, and pharmacy practices. The course duration is generally 2 years. Eligibility usually requires 10+2 with Physics, Chemistry, and Biology/Mathematics. Approx tuition fee ranges around ₹60,000–70,000 per year excluding hostel charges."
+  ]
+},
+
+{
+  "tag": "dpharm_scope_complete",
+  "patterns": [
+    "scope of dpharm",
+    "career after dpharm",
+    "jobs after dpharm"
+  ],
+  "responses": [
+    "After DPharm, students can work as Pharmacists, Medical Store Managers, Healthcare Assistants, Drug Sales Representatives, or continue higher studies like BPharm."
+  ]
+},
+
+{
+  "tag": "dpharm_choose_complete",
+  "patterns": [
+    "who should choose dpharm",
+    "should i choose dpharm",
+    "is dpharm good"
+  ],
+  "responses": [
+    "Students interested in pharmacy and healthcare who want quicker entry into pharmaceutical careers should choose DPharm."
+  ]
+},
+
+{
+  "tag": "mpharm_complete_details",
+  "patterns": [
+    "tell me complete details about mpharm",
+    "full information about mpharm",
+    "mpharm complete details",
+    "everything about mpharm in tmu",
+    "detailed information about mpharm"
+  ],
+  "responses": [
+    "MPharm (Master of Pharmacy) at TMU is a postgraduate pharmacy program focused on advanced pharmaceutical sciences, research, clinical pharmacy, drug development, and industrial pharmacy. The course duration is generally 2 years. Eligibility usually requires BPharm degree from a recognized institution."
+  ]
+},
+
+{
+  "tag": "mpharm_scope_complete",
+  "patterns": [
+    "scope of mpharm",
+    "career after mpharm",
+    "jobs after mpharm"
+  ],
+  "responses": [
+    "After MPharm, students can work in pharmaceutical research, drug development, clinical research, regulatory affairs, quality assurance, teaching, and healthcare industries."
+  ]
+},
+
+{
+  "tag": "mpharm_choose_complete",
+  "patterns": [
+    "who should choose mpharm",
+    "should i choose mpharm",
+    "is mpharm good"
+  ],
+  "responses": [
+    "Students interested in advanced pharmaceutical research, drug development, clinical pharmacy, and pharmaceutical industries should choose MPharm."
+  ]
+},
+
+{
+  "tag": "pharmacy_hostel",
+  "patterns": [
+    "hostel for pharmacy students",
+    "pharmacy hostel facilities",
+    "hostel for bpharm"
+  ],
+  "responses": [
+    "TMU provides hostel facilities for pharmacy students with WiFi, mess, security, laundry, and study facilities along with separate hostels for boys and girls."
+  ]
+},
+
+{
+  "tag": "pharmacy_labs",
+  "patterns": [
+    "pharmacy labs in tmu",
+    "laboratories for pharmacy",
+    "pharmacy practical labs"
+  ],
+  "responses": [
+    "TMU College of Pharmacy provides pharmaceutical laboratories, chemistry labs, pharmacology labs, pharmaceutics labs, and practical training facilities for students."
+  ]
+},
+{
+  "tag": "btech_cse_complete_details",
+  "patterns": [
+    "tell me complete details about btech cse",
+    "full information about btech cse",
+    "btech cse complete details",
+    "everything about btech cse in tmu",
+    "detailed information about btech cse"
+  ],
+  "responses": [
+    "BTech Computer Science & Engineering (CSE) at TMU is a 4-year engineering program focused on software development, AI, cloud computing, cybersecurity, databases, networking, and programming. Eligibility generally requires 10+2 with Physics, Chemistry, Mathematics or Computer Science with minimum 50 percent marks. Tuition fee is approximately 67500 rupees per semester with examination and lab charges extra. Career opportunities include Software Engineer, AI Engineer, Cloud Engineer, Data Scientist, and Cybersecurity Analyst."
+  ]
+},
+
+{
+  "tag": "btech_cse_scope",
+  "patterns": [
+    "scope of btech cse",
+    "career after btech cse",
+    "future after cse",
+    "jobs after btech cse"
+  ],
+  "responses": [
+    "After BTech CSE, students can work as Software Engineers, Web Developers, AI Engineers, Data Scientists, DevOps Engineers, Cloud Engineers, and Cybersecurity Analysts in IT industries."
+  ]
+},
+
+{
+  "tag": "btech_ai_ml_complete_details",
+  "patterns": [
+    "tell me complete details about ai ml",
+    "btech ai ml details",
+    "artificial intelligence course",
+    "ai ml in tmu"
+  ],
+  "responses": [
+    "BTech AI & ML at TMU is a 4-year engineering specialization focused on Artificial Intelligence, Machine Learning, Deep Learning, Data Science, Robotics, and Automation. Eligibility generally requires 10+2 with Physics, Chemistry, and Mathematics. Tuition fee is approximately 67500 rupees per semester. Career opportunities include AI Engineer, Machine Learning Engineer, Data Scientist, Robotics Engineer, and AI Researcher."
+  ]
+},
+
+{
+  "tag": "btech_ai_ml_scope",
+  "patterns": [
+    "scope of ai ml",
+    "career after ai ml",
+    "future after ai ml",
+    "jobs after ai ml"
+  ],
+  "responses": [
+    "After BTech AI & ML, students can work as AI Engineers, Machine Learning Engineers, Data Scientists, NLP Engineers, Robotics Engineers, and Automation Specialists."
+  ]
+},
+
+{
+  "tag": "btech_data_science_details",
+  "patterns": [
+    "btech data science details",
+    "data science in tmu",
+    "tell me about data science engineering"
+  ],
+  "responses": [
+    "BTech Data Science at TMU focuses on data analytics, machine learning, artificial intelligence, big data, statistics, and cloud technologies. Students learn Python, Machine Learning, Data Visualization, and Predictive Analytics."
+  ]
+},
+
+{
+  "tag": "btech_data_science_scope",
+  "patterns": [
+    "scope of data science",
+    "career after data science",
+    "jobs after data science"
+  ],
+  "responses": [
+    "After BTech Data Science, students can become Data Scientists, Business Analysts, AI Analysts, Data Engineers, and Machine Learning Developers."
+  ]
+},
+
+{
+  "tag": "btech_cloud_computing",
+  "patterns": [
+    "cloud computing in tmu",
+    "btech cloud computing details",
+    "cloud computing specialization"
+  ],
+  "responses": [
+    "BTech Cloud Computing at TMU focuses on cloud infrastructure, virtualization, networking, cybersecurity, distributed systems, and DevOps technologies. Career opportunities include Cloud Engineer, DevOps Engineer, Cloud Architect, and Infrastructure Specialist."
+  ]
+},
+
+{
+  "tag": "btech_cyber_security",
+  "patterns": [
+    "cyber security in tmu",
+    "btech cyber security details",
+    "ethical hacking course"
+  ],
+  "responses": [
+    "BTech Cyber Security at TMU focuses on ethical hacking, cybersecurity, digital forensics, cryptography, network security, and information security. Career opportunities include Ethical Hacker, Cybersecurity Analyst, Penetration Tester, and Security Consultant."
+  ]
+},
+
+{
+  "tag": "btech_blockchain",
+  "patterns": [
+    "blockchain in tmu",
+    "ai blockchain specialization",
+    "blockchain course"
+  ],
+  "responses": [
+    "BTech AI & Blockchain at TMU focuses on Blockchain Technology, Artificial Intelligence, Smart Contracts, Distributed Systems, and Cybersecurity. Career opportunities include Blockchain Developer, AI Engineer, Smart Contract Developer, and Security Engineer."
+  ]
+},
+
+{
+  "tag": "btech_specializations",
+  "patterns": [
+    "all btech courses in tmu",
+    "engineering specializations",
+    "btech branches in tmu"
+  ],
+  "responses": [
+    "TMU offers BTech specializations in Computer Science & Engineering, Artificial Intelligence & Machine Learning, Data Science, Cloud Computing, Cyber Security, Artificial Intelligence & Blockchain, Mechanical Engineering, Civil Engineering, and Electrical Engineering."
+  ]
+}
+,{
+  "tag": "bsc_computer_science_complete_details",
+  "patterns": [
+    "tell me complete details about bsc computer science",
+    "full information about bsc cs",
+    "bsc cs complete details",
+    "everything about bsc computer science in tmu",
+    "bsc computer science fees",
+    "scope of bsc computer science",
+    "eligibility of bsc computer science",
+    "subjects in bsc computer science"
+  ],
+  "responses": [
+    "BSc Computer Science at TMU is a 3-year undergraduate program offered by CCSIT focused on programming, databases, software development, networking, cybersecurity, artificial intelligence, and computer systems. Eligibility generally requires 10+2 with Mathematics or Computer Science from a recognized board with minimum qualifying marks. Subjects include Python, C Programming, Java, Data Structures, DBMS, Operating Systems, Computer Networks, Web Development, Cybersecurity, Artificial Intelligence, and Software Engineering. Approx tuition fee is around 29700 rupees per semester with examination fee around 4500 rupees per semester and lab charges around 500 rupees per semester. One-time registration and admission charges may also apply. Bus fee is approximately 17000 rupees yearly and hostel fee may range from 60000 to 90000 rupees yearly depending on hostel facilities. Career opportunities include Software Developer, Web Developer, Data Analyst, IT Support Engineer, System Administrator, Cybersecurity Associate, and Database Administrator. Students interested in programming, software technologies, problem solving, and IT careers should choose BSc Computer Science."
+  ]
+},
+
+{
+  "tag": "bsc_animation_complete_details",
+  "patterns": [
+    "tell me complete details about bsc animation",
+    "full information about animation",
+    "bsc animation details",
+    "animation course in tmu",
+    "animation fees",
+    "scope of animation",
+    "subjects in animation"
+  ],
+  "responses": [
+    "BSc Animation at TMU is a 3-year undergraduate course focused on animation, VFX, multimedia production, graphics design, UI/UX, game designing, motion graphics, and digital art. Eligibility generally requires 10+2 in any stream from a recognized board. Subjects include 2D Animation, 3D Animation, VFX, Motion Graphics, Graphic Designing, Video Editing, UI/UX Design, Multimedia Production, Game Design, and Digital Illustration. Approx tuition fee is around 29700 rupees per semester with additional lab and software charges. Examination fee may range around 4000 to 4500 rupees per semester. Bus fee is approximately 17000 rupees yearly and hostel fee ranges around 60000 to 90000 rupees yearly. Career opportunities include Animator, VFX Artist, Graphic Designer, UI/UX Designer, Motion Graphics Artist, Multimedia Artist, Game Designer, and Video Editor. Students interested in creativity, digital media, visual storytelling, gaming, and animation industries should choose BSc Animation."
+  ]
+},
+
+{
+  "tag": "bsc_agriculture_complete_details",
+  "patterns": [
+    "tell me complete details about bsc agriculture",
+    "agriculture course in tmu",
+    "bsc agriculture details",
+    "agriculture fees",
+    "scope of agriculture",
+    "subjects in agriculture"
+  ],
+  "responses": [
+    "BSc Agriculture at TMU is a 4-year undergraduate program focused on crop science, soil science, agricultural engineering, agribusiness, horticulture, irrigation systems, and sustainable farming technologies. Eligibility generally requires 10+2 with Physics, Chemistry, Biology or Agriculture subjects from a recognized board. Subjects include Agronomy, Soil Science, Horticulture, Plant Breeding, Agricultural Economics, Crop Production, Irrigation Management, Agricultural Biotechnology, and Farm Management. Approx tuition fee is around 50000 to 60000 rupees per semester excluding hostel charges. Examination fee and lab charges may apply additionally. Bus fee is approximately 17000 rupees yearly and hostel fee ranges around 60000 to 90000 rupees yearly. Career opportunities include Agriculture Officer, Agribusiness Manager, Research Associate, Soil Analyst, Agricultural Consultant, Farm Manager, and Government Agriculture Officer. Students interested in farming technologies, environmental sciences, food production, and agricultural innovation should choose BSc Agriculture."
+  ]
+},
+
+{
+  "tag": "phd_complete_details",
+  "patterns": [
+    "tell me complete details about phd",
+    "phd in tmu",
+    "doctorate courses",
+    "phd fees",
+    "scope of phd",
+    "phd subjects",
+    "research programs in tmu"
+  ],
+  "responses": [
+    "TMU offers PhD programs in multiple disciplines including Computer Science, Engineering, Medical Sciences, Pharmacy, Management, Law, Nursing, Agriculture, and Humanities. PhD programs focus on advanced research, innovation, publications, thesis development, and academic specialization. Eligibility generally requires a postgraduate degree in the relevant field with minimum qualifying marks along with entrance examination or interview as per university norms. Course duration generally ranges from 3 to 6 years depending on research progress and thesis completion. Approx tuition fee may range from 80000 to 150000 rupees yearly depending on specialization, research field, and laboratory requirements. Registration, thesis submission, and research charges may apply separately. Career opportunities include Professor, Research Scientist, Academician, Industry Consultant, Data Researcher, Innovation Specialist, and Research Analyst. Students interested in advanced research, teaching, innovation, scientific development, and academic careers should choose PhD programs."
+  ]
+},
+
+{
+  "tag": "phd_computer_science_complete_details",
+  "patterns": [
+    "phd in computer science",
+    "computer science phd in tmu",
+    "phd cse details",
+    "scope of phd in computer science",
+    "computer science research"
+  ],
+  "responses": [
+    "PhD in Computer Science at TMU focuses on advanced research in Artificial Intelligence, Machine Learning, Cybersecurity, Cloud Computing, Data Science, Blockchain, Software Engineering, and emerging technologies. Eligibility generally requires MTech, MCA, MSc CS, or equivalent postgraduate qualification with qualifying marks. Approx yearly fee may range from 100000 to 150000 rupees including research and laboratory charges. Students work on research publications, thesis development, innovation projects, and technical research under faculty supervision. Career opportunities include Research Scientist, Professor, AI Researcher, Data Scientist, Software Architect, and Technology Consultant."
+  ]
+},
+{
+  "tag": "phd_complete_details",
+  "patterns": [
+    "tell me complete details about phd",
+    "full information about phd in tmu",
+    "phd complete details",
+    "everything about phd",
+    "doctoral programs in tmu",
+    "research courses in tmu"
+  ],
+  "responses": [
+    "TMU offers PhD (Doctor of Philosophy) programs in multiple disciplines including Computer Science, Engineering, Management, Medical Sciences, Pharmacy, Nursing, Law, Agriculture, Education, and Sciences. PhD is a research-focused doctoral program designed for advanced academic research, innovation, publications, and specialization in a particular field. The program generally includes coursework, literature review, research methodology, thesis work, research publications, and final thesis defense."
+  ]
+},
+
+{
+  "tag": "phd_duration",
+  "patterns": [
+    "duration of phd",
+    "how many years is phd",
+    "phd course duration",
+    "time duration of phd"
+  ],
+  "responses": [
+    "PhD programs at TMU generally have a minimum duration of 3 years and maximum duration of 6 years depending on research progress and university regulations."
+  ]
+},
+
+{
+  "tag": "phd_eligibility",
+  "patterns": [
+    "phd eligibility",
+    "requirements for phd",
+    "who can apply for phd",
+    "qualification for phd",
+    "criteria for phd admission"
+  ],
+  "responses": [
+    "Eligibility for PhD at TMU generally requires a Master's degree in a relevant discipline with minimum qualifying marks as per university regulations. Some departments may also require entrance examination and interview performance."
+  ]
+},
+
+{
+  "tag": "phd_admission_process",
+  "patterns": [
+    "phd admission process",
+    "how to apply for phd",
+    "phd admission requirements",
+    "phd selection process"
+  ],
+  "responses": [
+    "PhD admission at TMU generally involves application submission, entrance examination, research proposal evaluation, and personal interview. Candidates with NET/JRF or equivalent qualifications may receive exemptions according to university norms."
+  ]
+},
+
+{
+  "tag": "phd_course_structure",
+  "patterns": [
+    "phd course structure",
+    "phd syllabus",
+    "subjects in phd",
+    "what is taught in phd"
+  ],
+  "responses": [
+    "PhD course structure generally includes Research Methodology, Literature Review, Research Ethics, Advanced Subject Studies, Research Publications, Thesis Preparation, Seminar Presentations, and Final Thesis Defense."
+  ]
+},
+
+{
+  "tag": "phd_fees_complete",
+  "patterns": [
+    "phd fees",
+    "complete fee structure of phd",
+    "yearly fee of phd",
+    "phd tuition fee",
+    "hostel fee for phd"
+  ],
+  "responses": [
+    "PhD tuition fees at TMU generally range from approximately ₹80,000 to ₹1,50,000 per year depending on the department and specialization. Additional charges may include registration fees, research fees, examination fees, and thesis submission charges. Hostel charges may range around ₹60,000–90,000 yearly depending on facilities."
+  ]
+},
+
+{
+  "tag": "phd_specializations",
+  "patterns": [
+    "phd specializations",
+    "fields available in phd",
+    "phd departments",
+    "research fields in tmu"
+  ],
+  "responses": [
+    "TMU offers PhD specializations in Computer Science, Artificial Intelligence, Engineering, Management, Pharmacy, Medical Sciences, Nursing, Agriculture, Law, Education, Biotechnology, Physics, Chemistry, Mathematics, and other interdisciplinary research fields."
+  ]
+},
+
+{
+  "tag": "phd_scope_complete",
+  "patterns": [
+    "scope of phd",
+    "career after phd",
+    "future after phd",
+    "jobs after phd"
+  ],
+  "responses": [
+    "After completing PhD, students can pursue careers as Professors, Researchers, Scientists, Research Analysts, R&D Specialists, Academic Consultants, Subject Experts, and Industry Researchers in universities, research institutes, government organizations, and private industries."
+  ]
+},
+
+{
+  "tag": "phd_choose_complete",
+  "patterns": [
+    "who should choose phd",
+    "should i choose phd",
+    "is phd good",
+    "why choose phd"
+  ],
+  "responses": [
+    "Students interested in advanced research, innovation, teaching, scientific discoveries, publications, problem-solving, and academic careers should choose PhD. It is ideal for students passionate about deep subject expertise and research-oriented careers."
+  ]
+},
+
+{
+  "tag": "phd_research_facilities",
+  "patterns": [
+    "research facilities in tmu",
+    "phd labs",
+    "research support for phd",
+    "facilities for researchers"
+  ],
+  "responses": [
+    "TMU provides research facilities including laboratories, digital libraries, research journals, advanced computing systems, healthcare research centers, seminar halls, research mentorship, and interdisciplinary research support for PhD scholars."
+  ]
+},
+
+{
+  "tag": "phd_publications",
+  "patterns": [
+    "research publications in phd",
+    "phd publications",
+    "papers during phd",
+    "research papers in phd"
+  ],
+  "responses": [
+    "PhD scholars at TMU are generally encouraged to publish research papers in journals, conferences, and academic publications during their doctoral research work."
+  ]
+},
+
+{
+  "tag": "phd_interview",
+  "patterns": [
+    "phd interview",
+    "phd viva",
+    "phd interview process",
+    "research interview"
+  ],
+  "responses": [
+    "PhD admission interviews at TMU generally evaluate research interests, subject knowledge, research proposal quality, analytical thinking, and academic background."
+  ]
+},
+
+{
+  "tag": "phd_computer_science",
+  "patterns": [
+    "phd in computer science",
+    "computer science research",
+    "phd cs details",
+    "research in ai and cs"
+  ],
+  "responses": [
+    "PhD in Computer Science at TMU focuses on advanced research in Artificial Intelligence, Machine Learning, Data Science, Cloud Computing, Cyber Security, Software Engineering, and Computer Networks. Research scholars work on innovative technologies, publications, and advanced software systems."
+  ]
+},
+
+{
+  "tag": "phd_management",
+  "patterns": [
+    "phd in management",
+    "management research",
+    "phd mba details"
+  ],
+  "responses": [
+    "PhD in Management at TMU focuses on advanced business research in Marketing, Finance, Human Resources, Operations, Entrepreneurship, and Business Analytics."
+  ]
+},
+
+{
+  "tag": "phd_medical",
+  "patterns": [
+    "phd in medical sciences",
+    "medical research phd",
+    "healthcare research"
+  ],
+  "responses": [
+    "TMU offers PhD opportunities in Medical Sciences and Healthcare fields focused on clinical research, medical innovation, healthcare systems, pathology, and biomedical studies."
+  ]
+},
+
+{
+  "tag": "phd_nursing",
+  "patterns": [
+    "phd in nursing",
+    "nursing research",
+    "research in nursing"
+  ],
+  "responses": [
+    "PhD in Nursing at TMU focuses on advanced healthcare research, patient care systems, nursing practices, clinical management, and healthcare administration."
+  ]
+},
+
+{
+  "tag": "phd_pharmacy",
+  "patterns": [
+    "phd in pharmacy",
+    "pharmacy research",
+    "research in pharmaceutical sciences"
+  ],
+  "responses": [
+    "PhD in Pharmacy at TMU focuses on pharmaceutical sciences, drug development, pharmacology, clinical pharmacy, pharmaceutical chemistry, and healthcare innovation."
+  ]
+},
+{
+  "tag": "bca_complete_details",
+  "patterns": [
+    "tell me complete details about bca",
+    "full information about bca",
+    "bca complete details",
+    "everything about bca in tmu",
+    "detailed information about bca"
+  ],
+  "responses": [
+    "BCA (Bachelor of Computer Applications) at TMU is a professional undergraduate program focused on computer applications, software development, programming, databases, networking, web development, and modern IT technologies. The course duration is generally 3 years divided into 6 semesters. Eligibility usually requires 10+2 from a recognized board with minimum qualifying marks. The course includes practical labs, projects, programming training, and industry-oriented learning. Approx tuition fee is around ₹30,500 per semester with additional examination and lab charges. Career opportunities include Software Developer, Web Developer, Data Analyst, UI/UX Designer, System Administrator, App Developer, and IT Support Specialist. Students interested in coding, software, computers, technology, and IT careers should choose BCA."
+  ]
+},
+
+{
+  "tag": "bca_course_structure",
+  "patterns": [
+    "bca course structure",
+    "subjects in bca",
+    "bca syllabus",
+    "what subjects are taught in bca"
+  ],
+  "responses": [
+    "BCA course structure at TMU includes Programming Languages, Data Structures, DBMS, Operating Systems, Computer Networks, Web Development, Software Engineering, Artificial Intelligence basics, Cloud Computing basics, Mathematics, Cyber Security basics, and project development."
+  ]
+},
+
+{
+  "tag": "bca_subjects_semester",
+  "patterns": [
+    "semester wise subjects in bca",
+    "bca semester subjects",
+    "subjects in first semester bca",
+    "all subjects in bca"
+  ],
+  "responses": [
+    "BCA subjects generally include C Programming, Python, Java, DBMS, Data Structures, Web Development, Computer Networks, Operating Systems, Software Engineering, Artificial Intelligence basics, Cloud Computing basics, Mathematics, and Final Year Project."
+  ]
+},
+
+{
+  "tag": "bca_duration",
+  "patterns": [
+    "duration of bca",
+    "how many years is bca",
+    "bca course duration"
+  ],
+  "responses": [
+    "BCA generally has a duration of 3 years divided into 6 semesters."
+  ]
+},
+
+{
+  "tag": "bca_eligibility",
+  "patterns": [
+    "bca eligibility",
+    "requirements for bca",
+    "who can apply for bca",
+    "qualification for bca"
+  ],
+  "responses": [
+    "Eligibility for BCA at TMU generally requires 10+2 from a recognized board with minimum qualifying marks. Students from Science, Commerce, and Arts streams can generally apply."
+  ]
+},
+
+{
+  "tag": "bca_fees_complete",
+  "patterns": [
+    "bca fees",
+    "complete fee structure of bca",
+    "yearly fee of bca",
+    "hostel fee for bca"
+  ],
+  "responses": [
+    "BCA tuition fee at TMU is approximately ₹30,500 per semester with additional examination fee around ₹4,000 per semester and yearly bus fee around ₹17,000. Hostel charges may range around ₹60,000–90,000 yearly depending on facilities."
+  ]
+},
+
+{
+  "tag": "bca_scope_complete",
+  "patterns": [
+    "scope of bca",
+    "career after bca",
+    "future after bca",
+    "jobs after bca"
+  ],
+  "responses": [
+    "After BCA, students can pursue careers as Software Developers, Web Developers, App Developers, Data Analysts, UI/UX Designers, IT Support Specialists, System Administrators, and Cyber Security Analysts. Students can also pursue MCA, MBA, MSc IT, or other higher studies."
+  ]
+},
+
+{
+  "tag": "bca_choose_complete",
+  "patterns": [
+    "who should choose bca",
+    "should i choose bca",
+    "is bca good",
+    "why choose bca"
+  ],
+  "responses": [
+    "Students interested in coding, software development, web technologies, applications, computers, and IT industries should choose BCA. It is ideal for students wanting strong entry into the software and technology field."
+  ]
+},
+
+{
+  "tag": "bca_skills",
+  "patterns": [
+    "skills required for bca",
+    "important skills for bca",
+    "what skills are needed in bca"
+  ],
+  "responses": [
+    "Important skills for BCA include logical thinking, problem-solving, programming interest, communication skills, creativity, mathematics basics, and understanding of computers and technology."
+  ]
+},
+
+{
+  "tag": "bca_programming_languages",
+  "patterns": [
+    "languages taught in bca",
+    "programming languages in bca",
+    "coding languages in bca"
+  ],
+  "responses": [
+    "Programming languages generally taught in BCA include C, C++, Python, Java, JavaScript, SQL, HTML, CSS, and PHP."
+  ]
+},
+
+{
+  "tag": "bca_projects",
+  "patterns": [
+    "projects in bca",
+    "bca practical projects",
+    "final year project in bca"
+  ],
+  "responses": [
+    "BCA students generally work on software projects, websites, database systems, AI-based mini projects, mobile apps, management systems, and final-year industry-oriented projects."
+  ]
+},
+
+{
+  "tag": "bca_vs_btech",
+  "patterns": [
+    "difference between bca and btech",
+    "bca vs btech",
+    "which is better bca or btech"
+  ],
+  "responses": [
+    "BCA mainly focuses on software applications, programming, and IT skills, while BTech provides deeper engineering and technical knowledge including hardware, advanced mathematics, and engineering concepts. BCA is generally shorter and more software-oriented, whereas BTech is broader engineering education."
+  ]
+},
+
+{
+  "tag": "bca_vs_bsc_cs",
+  "patterns": [
+    "difference between bca and bsc cs",
+    "bca vs bsc computer science",
+    "which is better bca or bsc cs"
+  ],
+  "responses": [
+    "BCA is more application and industry-oriented focusing on software development and practical IT skills, while BSc Computer Science focuses more on theoretical computer science, algorithms, mathematics, and computing fundamentals."
+  ]
+},
+
+{
+  "tag": "bca_higher_studies",
+  "patterns": [
+    "higher studies after bca",
+    "courses after bca",
+    "best higher studies after bca"
+  ],
+  "responses": [
+    "After BCA, students can pursue MCA, MBA, MSc IT, MSc Computer Science, Data Science certifications, Cloud Computing courses, Cyber Security certifications, and Artificial Intelligence specializations."
+  ]
+},
+
+{
+  "tag": "bca_placements",
+  "patterns": [
+    "placements for bca",
+    "bca placement opportunities",
+    "companies hiring bca students"
+  ],
+  "responses": [
+    "BCA students at TMU may receive placement opportunities in software companies, startups, IT service companies, and web development firms. Common roles include Software Developer, Technical Support Engineer, Web Developer, and QA Tester."
+  ]
+},
+
+{
+  "tag": "bca_industry_fields",
+  "patterns": [
+    "industries after bca",
+    "fields after bca",
+    "where can bca students work"
+  ],
+  "responses": [
+    "BCA graduates can work in Software Development, Web Development, Cloud Computing, Banking IT Systems, Data Analytics, Cyber Security, Mobile App Development, Digital Marketing Technology, and Startup industries."
+  ]
+},
+
+{
+  "tag": "bca_hostel_and_facilities",
+  "patterns": [
+    "hostel for bca students",
+    "facilities for bca students",
+    "labs for bca"
+  ],
+  "responses": [
+    "TMU provides computer labs, internet facilities, libraries, project labs, hostel facilities, WiFi-enabled campus, coding support, seminar halls, and technical events for BCA students."
+  ]
+}
+  ]
+} 
